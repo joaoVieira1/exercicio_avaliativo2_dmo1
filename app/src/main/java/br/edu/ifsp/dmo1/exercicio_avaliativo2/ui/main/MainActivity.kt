@@ -1,4 +1,4 @@
-package br.edu.ifsp.dmo1.exercicio_avaliativo2
+package br.edu.ifsp.dmo1.exercicio_avaliativo2.ui.main
 
 import android.os.Bundle
 import androidx.appcompat.app.AppCompatActivity

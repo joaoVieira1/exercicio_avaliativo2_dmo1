@@ -1,3 +1,7 @@
 <resources>
     <string name="app_name">exercicio_avaliativo2</string>
+    <string name="button_participar">Participar da Pesquisa</string>
+    <string name="button_checar">Checar meu Voto</string>
+    <string name="button_finalizar">Finalizar</string>
+    <string name="title">Pesquisa de Opinião - QUALIDADE DE ENSINO</string>
 </resources>
