@@ -20,7 +20,7 @@ class DatabaseHelper(context: Context) : SQLiteOpenHelper(context, DATABASE_KEYS
                 "${DATABASE_KEYS.COLUMN_PRONTUARIO} TEXT NOT NULL, " +
                 "${DATABASE_KEYS.COLUMN_NOME} TEXT NOT NULL, " +
                 "${DATABASE_KEYS.COLUMN_VOTO} TEXT NOT NULL, " +
-                "UNIQUE (${DATABASE_KEYS.COLUMN_PRONTUARIO}))"
+                "UNIQUE (${DATABASE_KEYS.COLUMN_PRONTUARIO}) )"
 
         const val DROP_TABLE = "DROP TABLE IF EXISTS ${DATABASE_KEYS.TABLE_NAME}"
     }

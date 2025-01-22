@@ -2,6 +2,19 @@
     <string name="app_name">exercicio_avaliativo2</string>
     <string name="button_participar">Participar da Pesquisa</string>
     <string name="button_checar">Checar meu Voto</string>
-    <string name="button_finalizar">Finalizar</string>
+    <string name="button_finalizar">Finalizar pesquisa</string>
     <string name="title">Pesquisa de Opinião - QUALIDADE DE ENSINO</string>
+    <string name="title_voto">Registre seu voto</string>
+    <string name="hint_prontuario">Informe seu prontuario</string>
+    <string name="hint_nome">Informe seu nome</string>
+    <string name="radio_ruim">Ruim</string>
+    <string name="radio_regular">Regular</string>
+    <string name="radio_bom">Bom</string>
+    <string name="radio_otimo">Ótimo</string>
+    <string name="button_registrar_voto">Registrar voto</string>
+    <string name="title_checar">checagem de voto</string>
+    <string name="label_voto">Seu voto foi: </string>
+    <string name="label_inserir_codigo">Insira seu código de verificação para finalizar a pesquisa</string>
+    <string name="hint_codigo">Informe seu código de verificação</string>
+    <string name="title_finalizar">Dados da pesquisa:</string>
 </resources>

@@ -5,7 +5,7 @@ import br.edu.ifsp.dmo1.exercicio_avaliativo2.data.model.Usuario
 
 class UsuarioDao(private val dbHelper: DatabaseHelper) {
 
-    fun insert(usuario: Usuario){
+    fun insert(usuario: Usuario): Long{
 
         val db = dbHelper.writableDatabase
         val values = ContentValues().apply {
@@ -14,7 +14,7 @@ class UsuarioDao(private val dbHelper: DatabaseHelper) {
             put(DatabaseHelper.DATABASE_KEYS.COLUMN_VOTO, usuario.voto)
         }
 
-        db.insert(DatabaseHelper.DATABASE_KEYS.TABLE_NAME, null, values)
+        return db.insert(DatabaseHelper.DATABASE_KEYS.TABLE_NAME, null, values)
 
     }
 

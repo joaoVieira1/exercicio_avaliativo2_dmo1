@@ -10,18 +10,18 @@ class UsuarioRepository(context: Context) {
     private val dbHelper = DatabaseHelper(context)
     private val dao = UsuarioDao(dbHelper)
 
-    fun getAll() = dao.getAll()
+    fun getAll(): List<Usuario> = dao.getAll()
 
-    fun getRuim() = dao.getRuim()
+    fun getRuim(): List<Usuario> = dao.getRuim()
 
-    fun getRegular() = dao.getRegular()
+    fun getRegular(): List<Usuario> = dao.getRegular()
 
-    fun getBom() = dao.getBom()
+    fun getBom(): List<Usuario> = dao.getBom()
 
-    fun getOtimo() = dao.getOtimo()
+    fun getOtimo(): List<Usuario> = dao.getOtimo()
 
-    fun exists(prontuario: String) = dao.exists(prontuario)
+    fun exists(prontuario: String): Boolean = dao.exists(prontuario)
 
-    fun insert(usuario: Usuario) = dao.insert(usuario)
+    fun insert(usuario: Usuario): Long = dao.insert(usuario)
 
 }
