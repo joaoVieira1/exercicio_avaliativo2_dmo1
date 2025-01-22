@@ -25,5 +25,7 @@ Código modularizado e limpo com uma interface e trilha intuitiva.
 
 ![Git](https://img.shields.io/badge/GIT-E44C30?style=for-the-badge&logo=git&logoColor=white)
 
+![SQLite](https://raw.githubusercontent.com/marwin1991/profile-technology-icons/refs/heads/main/icons/sqlite.png)
+
 
 
